@@ -2,6 +2,7 @@
     background-color: yellow;
     padding: 5px;
     height: 700px;
+    width: auto;
     font-size: 30px;
     text-align: center;
     display: grid;
