@@ -1,0 +1,99 @@
+.padre{
+    background-color: yellow;
+    padding: 5px;
+    height: 700px;
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "c1 c1 c1 c1 c1 c1 c2 c2 c2 c2 c2 c2 c2"
+                         "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3"
+                         "c4 c4 c6 c6 c7 c7 c10 c11 c11 c11 c11 c5 c5"
+                         "c4 c4 c6 c6 c7 c7 c10 c11 c11 c11 c11 c5 c5"
+                         "c4 c4 c6 c6 c7 c7 c10 c12 c13 c13 c13 c5 c5"
+                         "c4 c4 c8 c8 c9 c9 c10 c12 c13 c13 c13 c5 c5"
+                         "c4 c4 c8 c8 c9 c9 c10 c12 c14 c15 c15 c5 c5"
+                         "c4 c4 c8 c8 c9 c9 c10 c12 c14 c15 c15 c5 c5"
+                         "c4 c4 c16 c16 c16 c16 c16 c16 c16 c16 c16 c5 c5";
+
+}
+.padre .c1{
+    background-color: tomato;
+    margin: 5px;
+    grid-area: c1;
+}
+.padre .c2{
+    background-color: tomato;
+    margin: 5px;
+    grid-area: c2;
+}
+.padre .c3{
+    background-color: tomato;
+    margin: 5px;
+    grid-area: c3;
+}
+.padre .c4{
+    background-color: tomato;
+    margin: 5px;
+    grid-area: c4;
+}
+.padre .c5{
+    background-color: tomato;
+    margin: 5px;
+    grid-area: c5;
+}
+.padre .c6{
+    background-color: plum;
+    margin: 5px;
+    grid-area: c6;
+}
+.padre .c7{
+    background-color: plum;
+    margin: 5px;
+    grid-area: c7;
+}
+.padre .c8{
+    background-color: plum;
+    margin: 5px;
+    grid-area: c8;
+}
+.padre .c9{
+    background-color: plum;
+    margin: 5px;
+    grid-area: c9;
+}
+.padre .c10{
+    background-color: orange;
+    margin: 5px;
+    grid-area: c10;
+}
+.padre .c11{
+    background-color: orange;
+    margin: 5px;
+    grid-area: c11;
+}
+.padre .c12{
+    background-color: orange;
+    margin: 5px;
+    grid-area: c12;
+}
+.padre .c13{
+    background-color: orange;
+    margin: 5px;
+    grid-area: c13;
+}
+.padre .c14{
+    background-color: orange;
+    margin: 5px;
+    grid-area: c14;
+}
+.padre .c15{
+    background-color: orange;
+    margin: 5px;
+    grid-area: c15;
+}
+.padre .c16{
+    background-color: tomato;
+    margin: 5px;
+    grid-area: c16;
+}
